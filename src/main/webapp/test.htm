@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+ <head>
+ </head>
+ <body>
+	<script type="text/javascript" src="/js/jquery-easyui-1.4.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		alert("1111111");
+		
+		$(function(){
+			$.get("http://localhost:9001/ceshi",function(data){
+				alert(data.key);
+				alert("2222222");
+			});
+		});
+		alert("3333333");
+	</script>
+ </body>
+</html>
